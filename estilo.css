@@ -1,0 +1,540 @@
+body{
+	background: #E5E7EB;
+}
+
+hr {
+	background-color: #AEB4B3;
+	width: 92%;
+	height: 5px;
+	border: 1px;
+	float: left;
+	margin-left: 1.5%;
+}
+
+#menu{
+	background: #ffffff;
+	float:left;
+	width: 16%;
+	height:100%;
+	margin-top: 0%;
+	margin-right: 0%;
+	margin-left: 8%;
+	position: fixed;
+}
+
+#menu .container {
+	width: 50%;
+	margin-right: 50%;
+	margin-left: 5%;
+	padding: 5px;
+	background-color: #ffffff;
+	color: #000000;
+}
+
+#menu .container img { 
+	max-width: 75%; 
+}
+
+#menu .container p { 
+	font-size: 12px; 
+	color: #B4B4B4;
+	margin-top: 0px;
+}
+
+#menu .bar {
+	width: 50%;
+	margin-right: 50%;
+	margin-left: 5%;
+	padding: 5px;
+	background-color: #ffffff;
+	color: #000000;
+}
+
+#menu .bar a { 
+	text-decoration: none;
+	margin-top: 10px;
+	color: #000000;
+}
+
+#menu .bar span {
+	margin-right:10px;
+}
+
+#menu .bar a:hover {
+	 background: #ffffff;
+	 color: #4EC6B3;
+	 box-shadow: inset 0 0 0 0 #ffffff;
+}
+
+#menu .panel {
+	width: 50%;
+	margin-right: 50%;
+	margin-left: 5%;
+	padding: 5px;
+	background-color: #ffffff;
+	color: #000000;
+}
+
+#menu .panel span:hover {
+	 background: #ffffff;
+	 color: #4EC6B3;
+	 box-shadow: inset 0 0 0 0 #ffffff;
+}
+
+#menu .panel a{
+	text-decoration:none;
+	color: #000000;
+}
+
+.main{
+	float:left;
+	background: #E5E7EB;
+	width:70%;
+	margin-top: 0%;
+	margin-right: 0%;
+	margin-left: 24.5%;
+	border:10px;
+	border-top-color:#000000;
+	position: absolute;
+}
+
+.main .container b{
+	margin-left: 1.5%;
+	
+}
+
+.main .container img{
+	max-width: 350px;
+}
+
+.bottombar{
+	float:center;
+	background: #E5E7EB;
+	width: 100%;
+	margin-bottom: 20px;
+	margin-left:1.5%;
+}
+
+.bottombar .button {
+	border: none;
+	background: #ffffff;
+	color: #000000;
+	padding: 10px;
+	border-radius: 0px;
+	position: relative;
+	transition: all 500ms ease;
+}
+
+.bottombar .button:hover {
+	 background: #000000;
+	 color: #ffffff;
+	 box-shadow: inset 0 0 0 0 #ffffff;
+}
+
+.bottombar .button span {
+	margin-right:10px;
+}
+
+.main .row {
+
+
+	border: 0px;
+	color: #000000;
+	padding: 10px;
+	border-radius: 0px;
+	position: relative;
+	transition: all 500ms ease;
+}
+
+.main .row img{
+	width: 200px;
+	height: 200px;
+}
+
+.main .row .containernoticia {
+	float: left;
+	width:30%;
+	border: none;
+	color: #000000;
+	padding: 10px;
+	border-radius: 0px;
+	position: relative;
+	transition: all 500ms ease;
+}
+
+.main .row .containernoticia .containerresumen {
+	background: #ffffff;
+	padding:5px;
+}
+
+.main .row .containernoticia .containerresumen p{
+	margin-top:0px;
+	margin-left:10px;
+}
+
+.main .row .containernoticia img{
+	margin-bottom:0px;
+}
+
+.main .paginadocenter {
+	float:left;
+	width:95%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	
+}
+
+.main .paginadocenter a{
+	padding: 8px;
+	border:none;
+	text-decoration: none;
+	margin-top: 0%;
+	margin-right: 0%;
+	margin-left: 0%;
+	margin-bottom: 0%;
+	color: #000000;
+}
+
+.main .paginadocenter a:hover{
+	background: #000000;
+	color: #ffffff;
+	box-shadow: inset 0 0 0 0 #ffffff;	
+	border:none;
+}
+
+.main #acerca {
+	margin-left: 1.5%;
+	margin-bottom: 20px;
+}
+
+.main #acerca .margenizq {
+	float: left;
+	width: 50%;
+}
+
+.main #acerca .margender {
+	float: left;
+	width: 50%;
+}
+
+.main .containertotal {
+	margin-left:1.5%;
+	float: left;
+	
+}
+
+.main .containertotal hr{
+	background-color: #AEB4B3;
+	width: 93.5%;
+	height: 5px;
+	border: 1px;
+	float: left;
+	margin-left: 0%;
+}
+
+.containertotal p{
+	width: 93.5%;
+	float: left;
+	margin-left: 0%;
+}
+
+.containertotal h4{
+	width: 93.5%;
+	float: left;
+	margin-left: 0%;
+}
+
+
+.main .containertotal .porcentajes{
+	float: left;
+	width: 93.5%;
+}
+
+.main .containertotal .porcentajes p{
+	float: left;
+	width: 100%;
+}
+
+
+.ProgressBar { 
+	float:left;
+	width: 100%;
+	border: 1px solid black; 
+	background: #AEB4B3; 
+	height: 25px; 
+	display: block; 
+}
+
+.ProgressBarText { 
+	position: absolute;
+	font-size: 1em; 
+	width: 100%; 
+	text-align: justify; 
+	font-weight: normal; 
+	color: #ffffff;
+}
+
+.ProgressBarFill { 
+	height: 100%; 
+	background: #6E7272; 
+	display: block; 
+	overflow: visible; 
+}
+
+.porcentajes .button {
+	width: 20%;
+	margin-top: 5px;
+	margin-left: 0%;
+	padding: 8px;
+	background-color: #6E7272;
+	color: #ffffff;
+}
+
+.porcentajes .button span {
+	margin-right:10px;
+}
+
+.porcentajes button:hover {
+	background: #ffffff;
+	color: #6E7272;
+	box-shadow: inset 0 0 0 0 #ffffff;
+}
+.main .containertotal .porcentajes hr{
+	background-color: #AEB4B3;
+	width: 100%;
+	height: 5px;
+	border: 1px;
+	float: left;
+	margin-left: 0%;
+}
+
+.containertotal .container  {
+	float: left;
+	width: 100%;
+}
+
+.containertotal .container .tabla{
+	float: left;
+	width: 30%;
+}
+
+.containertotal .container .tabla ul{
+	list-style:none;
+}
+
+.containertotal .container .tabla li{
+	text-align: center;
+}
+
+.containertotal .container .tabla .titulo{
+	background-color: #6E7272;
+	padding: 25px;
+	color: #ffffff;
+	font-size: 20px;
+}
+
+.containertotal .container .tabla .lista-item{
+	background-color: #ffffff;
+	padding: 15px;
+	color: #AEB4B3;
+	font-size: 15px;
+	border-bottom-color:#EDF1F1;
+	border-bottom: 1px solid;
+}
+
+.containertotal .container .tabla .titulo:hover{
+	background-color: #4EC6B3;
+	padding: 25px;
+	color: #ffffff;
+	font-size: 20px;
+}
+
+.containertotal .container .tabla .button{
+	background-color: #4EC6B3;
+	margin-top:10px;
+	padding: 15px;
+	color: #ffffff;
+	font-size: 15px;
+}
+
+
+
+
+
+.main .contenedorsegundo {
+	margin-top: 1.5%;
+	float: left;
+	width: 93.5%;
+	background-color:#AEB4B3;	
+}
+
+.main .contenedorsegundo .grupo {
+	float: left;
+	margin-left:1.5%;
+	width: 97%;
+	background-color:#AEB4B3;	
+	padding: 0;
+}
+
+.main .contenedorsegundo .grupo .grupo-item{
+	float: left;
+	width: 29%;
+	background-color:#6E7272;	
+	padding: 25px;
+}
+
+.main .contenedorsegundo .grupo .grupo-item:hover{
+	float: left;
+	width: 29%;
+	background-color:#4EC6B3;	
+	padding: 25px;
+}
+
+.main .contenedorsegundo h3{
+	margin-left: 1.5%;
+}
+
+.main .contenedorsegundo .grupo .grupo-item p{
+	text-align:center;
+	color: #ffffff;
+}
+
+.main .contenedorsegundo hr{
+	background-color: #ffffff;
+	margin-top: 3%;
+	margin-bottom: 2%;
+	margin-left: 1.5%;
+	margin-right: 1.5%;
+	width: 96.5%;
+	height: 1px;
+	float: left;
+}
+
+.main .contenedorsegundo .texto{
+	float: left;
+	margin-left: 1.5%;
+	width:100%;
+}
+
+.main .contenedorsegundo .texto .input{
+	float:left;
+	width: 96.5%;
+	margin-bottom: 1%;
+}
+
+.main .contenedorsegundo .button{
+	width: 20%;
+	margin-top: 1%;
+	margin-left: 1.5%;
+	margin-bottom:1.5%;
+	padding: 8px;
+	background-color: #000000;
+	color: #ffffff;
+}
+
+.main .contenedorsegundo .button span{
+	margin-right:10px;
+}
+
+.main .contenedorsegundo button:hover {
+	background: #ffffff;
+	color: #000000;
+	box-shadow: inset 0 0 0 0 #ffffff;
+}
+
+.main footer{
+	float: left;
+	width: 93.5%;
+	background-color:#6E7272;	
+	
+}
+
+.main .row .infonoticia{
+	float: left;
+	width: 32%;
+	background-color:#6E7272;	
+	margin-left: 1%;
+	color: #ffffff;	
+	margin-bottom: 2.5%;
+}
+
+.main .row .infonoticia a{
+	color: #ffffff;
+}
+
+.main .row .infonoticia img{
+	width:50px;
+	height:50px;
+}
+
+.main .row .infonoticia ul{
+	list-style:none;
+}
+
+.main .row .infonoticia .lista hr{
+	background-color: #AEB4B3;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	width: 100%;
+	height: 1px;
+	float: left;	
+}
+
+
+.main .row .infonoticia span{
+	background-color: #AEB4B3;
+	color: #6E7272;
+	margin-bottom: 1%;
+	padding:5px;
+}
+
+.main .row .infonoticia span:hover{
+	background-color: #000000;
+	color: #ffffff;
+	margin-bottom: 1%;
+	padding:2px;
+}
+
+
+
+.main .row .infonoticia .lista .lista-item .n1{
+	float: left;
+	width: 25;	
+	margin: 0 0;
+}
+
+.main .row .infonoticia .lista .lista-item .n1 span{
+	background-color: #6E7272;
+	color: #ffffff;
+	margin-bottom: 1%;
+	padding:0px;
+}
+
+.main .row .infonoticia .lista .lista-item .n1 span:hover{
+	background-color: #6E7272;
+	color: #ffffff;
+	margin-bottom: 1%;
+	padding:0px;
+}
+
+.main .row .infonoticia .lista .lista-item .n1 .resaltado{
+	background-color: #6E7272;
+	color: #ffffff;
+	text-align: left;
+	font-size:20px;
+}
+
+
+.centralnegro {
+	float:left;
+	background: #000000;
+	width:88.5%;
+	padding: 2.5%;
+	color: #ffffff;
+	text-align: center;
+}
+
+.centralnegro a{
+	color: #ffffff;
+}
